@@ -1,0 +1,8 @@
+use('storedb')
+
+
+db.datosCita.find({})
+
+db.registro.find({})
+
+db.juan.find({})

@@ -1,0 +1,30 @@
+use('storedb')
+
+db.registro.insertOne({
+    email: 1,
+    raza: 'pastor aleman',
+    nombreDueño: 'andres',
+    edad: '2 años',
+    
+})
+
+db.datosCita.insertOne({
+    tipoCita:'medica',
+    estadoL:'bueno'
+
+})
+
+db.juan.createIndex(
+    {name:2 }, { unique: true },
+    
+
+)
+db.registro.insertOne({
+    name: 2,
+    raza: 'pastor aleman',
+    nombreDueño: 'andres',
+    edad: '2 años',
+    
+})
+
+
